@@ -13,6 +13,9 @@
     a{
         text-decoration: none;
     }
+    a:hover{
+        color: var(--title-color);
+    }
     
     img {
     width: 100%;
@@ -444,6 +447,15 @@
    }
    footer .social a:hover{
         transform: translateY(-8px);
+   }
+   footer .social a:hover .icon-youtube{
+        color: red;
+   }
+   footer .social a:hover .icon-facebook{
+       color: blue;
+   }
+   footer .social a:hover .icon-instagram{
+       color: var(--title-color); 
    }
    footer .social{
         grid-auto-flow: column;
